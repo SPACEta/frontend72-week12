@@ -4,10 +4,11 @@
 const buttonOne = document.querySelector('.b-1');
 const resultOne = document.querySelector('#resultOne');
 
-const makeOne = () => {
+const makeOne = (e) => {
 	const num1 = 5;
 	const num2 = 10;
-	//Ваш код
+	const sum = num1 + num2;
+	resultOne.innerText = sum;
 };
 
 buttonOne.addEventListener('click', makeOne); //Слушатель уже добавлен
@@ -21,10 +22,11 @@ const resultTwo = document.querySelector('#resultTwo');
 const makeTwo = () => {
 	const num1 = 20;
 	const num2 = 7;
-	//Ваш код
+	const sum = num1 - num2;
+	resultTwo.innerText = sum;
 };
 
-//Добавьте слушатель события
+buttonTwo.addEventListener('click', makeTwo);//Добавьте слушатель события
 
 //Задание 3
 //Найдите произведение num1 и num2. Добавьте слушатель события на кнопку "Задание 3" и выведите результат на экран.
@@ -390,3 +392,9 @@ const makeThirty = () => {
 };
 
 //Добавьте слушатель события
+
+
+const text = "Пример текста для поиска буквы 'a'";
+const isLetterIncluded = text.includes('а');
+
+console.log(`Буква 'a' найдена в строке? ${isLetterIncluded}`); //Буква 'a' найдена в строке? true
