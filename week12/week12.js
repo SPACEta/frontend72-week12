@@ -26,7 +26,7 @@ const makeTwo = () => {
 	resultTwo.innerText = difference;
 };
 
-buttonTwo.addEventListener('click', makeTwo);//Добавьте слушатель события
+buttonTwo.addEventListener('click', makeTwo);//Cлушатель события
 
 //Задание 3
 //Найдите произведение num1 и num2. Добавьте слушатель события на кнопку "Задание 3" и выведите результат на экран.
@@ -41,7 +41,7 @@ const makeThree = () => {
 	resultThree.innerText = product;
 };
 
-buttonThree.addEventListener('click', makeThree);//Добавьте слушатель события
+buttonThree.addEventListener('click', makeThree);//Cлушатель события
 
 //Задание 4
 //Найдите результат операции деления num1 на num2. Добавьте слушатель события на кнопку "Задание 4" и выведите результат на экран.
@@ -56,7 +56,7 @@ const makeFour = () => {
 	resultFour.innerText = division;
 };
 
-buttonFour.addEventListener('click', makeFour);//Добавьте слушатель события
+buttonFour.addEventListener('click', makeFour);//Cлушатель события
 
 //Задание 5
 //Возведите число num в степень power. Добавьте слушатель события на кнопку "Задание 5" и выведите результат на экран.
@@ -72,7 +72,7 @@ const makeFive = () => {
 	resultFive.innerText = powerOf;
 };
 
-buttonFive.addEventListener('click', makeFive);//Добавьте слушатель события
+buttonFive.addEventListener('click', makeFive);//Cлушатель события
 
 //Задание 6
 //Найдите результат от деления num1 на num2. Добавьте слушатель события на кнопку "Задание 6" и выведите результат на экран.
@@ -87,7 +87,7 @@ const makeSix = () => {
 	resultSix.innerText = division1;
 };
 
-buttonSix.addEventListener('click', makeSix);//Добавьте слушатель события
+buttonSix.addEventListener('click', makeSix);//Cлушатель события
 
 //Задание 7
 //Найдите остаток от деления num1 на num2. Добавьте слушатель события на кнопку "Задание 7" и выведите результат на экран.
@@ -102,7 +102,7 @@ const makeSeven = () => {
 	resultSeven.innerText = remainder;
 };
 
-buttonSeven.addEventListener('click', makeSeven);//Добавьте слушатель события
+buttonSeven.addEventListener('click', makeSeven);//Cлушатель события
 
 //Задание 8
 //Найдите остаток от деления num1 на 10. Добавьте слушатель события на кнопку "Задание 8" и выведите результат на экран.
@@ -116,7 +116,7 @@ const makeEight = () => {
 	resultEight.innerText = remainder;
 };
 
-buttonEight.addEventListener('click', makeEight);//Добавьте слушатель события
+buttonEight.addEventListener('click', makeEight);//Cлушатель события
 
 //Задание 9
 //Найдите остаток от деления num1 на 100. Добавьте слушатель события на кнопку "Задание 9" и выведите результат на экран.
@@ -130,7 +130,7 @@ const makeNine = () => {
 	resultNine.innerText = remainder;
 };
 
-buttonNine.addEventListener('click', makeNine);//Добавьте слушатель события
+buttonNine.addEventListener('click', makeNine);//Cлушатель события
 
 //Задание 10
 //Найдите символ по индексу 2 в строке "Hello". Добавьте слушатель события на кнопку "Задание 10" и выведите результат на экран.
@@ -144,7 +144,7 @@ const makeTen = () => {
 	resultTen.innerText = simv;
 };
 
-buttonTen.addEventListener('click', makeTen);//Добавьте слушатель события
+buttonTen.addEventListener('click', makeTen);//Cлушатель события
 
 //Задание 11
 //Выведите на экран результат операции 5 взятое по модулю 2. Добавьте слушатель события на кнопку "Задание 11" и выведите результат на экран.
@@ -159,7 +159,7 @@ const makeEleven = () => {
 	resultEleven.innerText = remainder;
 };
 
-buttonEleven.addEventListener('click', makeEleven);//Добавьте слушатель события
+buttonEleven.addEventListener('click', makeEleven);//Cлушатель события
 
 //Задание 12
 //Объедините строки str1 и str2. Добавьте слушатель события на кнопку "Задание 12" и выведите результат на экран.
@@ -170,10 +170,10 @@ const resultTwelve = document.querySelector('#resultTwelve');
 const makeTwelve = () => {
 	const str1 = 'Hello, ';
 	const str2 = 'World!';
-	//Ваш код
+	resultTwelve.innerText = (str1 + str2);  
 };
 
-//Добавьте слушатель события
+buttonTwelve.addEventListener('click', makeTwelve);//Cлушатель события
 
 //Задание 13
 //Найдите длину строки str. Добавьте слушатель события на кнопку "Задание 13" и выведите результат на экран.
@@ -183,10 +183,11 @@ const resultThirteen = document.querySelector('#resultThirteen');
 
 const makeThirteen = () => {
 	const str = 'JavaScript';
-	//Ваш код
+	const length = str.length; 
+	resultThirteen.innerText = length;
 };
 
-//Добавьте слушатель события
+buttonThirteen.addEventListener('click', makeThirteen);//Cлушатель события
 
 //Задание 14
 //Приведите строку str к нижнему регистру. Добавьте слушатель события на кнопку "Задание 14" и выведите результат на экран.
@@ -196,10 +197,11 @@ const resultFourteen = document.querySelector('#resultFourteen');
 
 const makeFourteen = () => {
 	const str = 'JavaScript';
-	//Ваш код
+	const lowerStr = str.toLowerCase();
+	resultFourteen.innerText = lowerStr;
 };
 
-//Добавьте слушатель события
+buttonFourteen.addEventListener('click', makeFourteen);//Cлушатель события
 
 //Задание 15
 //Приведите строку str к верхнему регистру. Добавьте слушатель события на кнопку "Задание 15" и выведите результат на экран.
@@ -209,10 +211,11 @@ const resultFifteen = document.querySelector('#resultFifteen');
 
 const makeFifteen = () => {
 	const str = 'JavaScript';
-	//Ваш код
+	const upperStr = str.toUpperCase();
+	resultFifteen.innerText = upperStr;
 };
 
-//Добавьте слушатель события
+buttonFifteen.addEventListener('click', makeFifteen);//Cлушатель события
 
 //Задание 16
 //Получите подстроку из строки str, начиная с индекса 3 и до конца строки. Добавьте слушатель события на кнопку "Задание 16" и выведите результат на экран.
@@ -223,10 +226,11 @@ const resultSixteen = document.querySelector('#resultSixteen');
 
 const makeSixteen = () => {
 	const str = 'JavaScript';
-	//Ваш код
+	const res = str.substring(3);
+	resultSixteen.innerText = res;
 };
 
-//Добавьте слушатель события
+buttonSixteen.addEventListener('click', makeSixteen);//Cлушатель события
 
 //Задание 17
 //Получите подстроку из строки str, начиная с индекса 3 и до индекса 7 (не включая его). Добавьте слушатель события на кнопку "Задание 17" и выведите результат на экран.
@@ -237,10 +241,11 @@ const resultSeventeen = document.querySelector('#resultSeventeen');
 
 const makeSeventeen = () => {
 	const str = 'JavaScript';
-	//Ваш код
+	const res = str.substring(3, 7);
+	resultSeventeen.innerText = res;
 };
 
-//Добавьте слушатель события
+buttonSeventeen.addEventListener('click', makeSeventeen);//Cлушатель события
 
 //Задание 18
 //Замените все вхождения подстроки 'world' на 'JavaScript' в строке str. Добавьте слушатель события на кнопку "Задание 18" и выведите результат на экран.
@@ -250,23 +255,26 @@ const resultEighteen = document.querySelector('#resultEighteen');
 
 const makeEighteen = () => {
 	const str = 'Hello, world!';
-	//Ваш код
+	const replace = str.replace("world", "JavaScript");
+	resultEighteen.innerText = replace;
 };
 
-//Добавьте слушатель события
+buttonEighteen.addEventListener('click', makeEighteen);//Cлушатель события
 
 //Задание 19
 //Получите подстроку из строки str, начиная с индекса 7 и длиной 6 символов. Добавьте слушатель события на кнопку "Задание 19" и выведите результат на экран.
+//Подсказка: Для получения подстроки из строки используйте метод substr()
 
 const buttonNineteen = document.querySelector('.b-19');
 const resultNineteen = document.querySelector('#resultNineteen');
 
 const makeNineteen = () => {
 	const str = 'Hello, world!';
-	//Ваш код
+	const res = str.substr(7, 6); 
+	resultNineteen.innerText = res;
 };
 
-//Добавьте слушатель события
+buttonNineteen.addEventListener('click', makeNineteen);//Cлушатель события
 
 //Задание 20
 //Найдите максимальное число из чисел 10, 25, 5, 30, 15. Добавьте слушатель события на кнопку "Задание 20" и выведите результат на экран.
@@ -276,10 +284,11 @@ const buttonTwenty = document.querySelector('.b-20');
 const resultTwenty = document.querySelector('#resultTwenty');
 
 const makeTwenty = () => {
-	//Ваш код
+	const res = Math.max(10, 25, 5, 30, 15);
+	resultTwenty.innerText = res;
 };
 
-//Добавьте слушатель события
+buttonTwenty.addEventListener('click', makeTwenty);//Cлушатель события
 
 // Задание 21
 // Выведите на экран случайное целое число от 1 до 10. Добавьте слушатель события на кнопку "Задание 21" и выведите результат на экран.
@@ -288,10 +297,11 @@ const buttonTwentyOne = document.querySelector('.b-21');
 const resultTwentyOne = document.querySelector('#resultTwentyOne');
 
 const makeTwentyOne = () => {
-	//Ваш код
+	const randNum = Math.floor(Math.random() * 10) + 1;
+	resultTwentyOne.innerText = randNum;
 };
 
-//Добавьте слушатель события
+buttonTwentyOne.addEventListener('click', makeTwentyOne);//Cлушатель события
 
 //Задание 22
 //Найдите минимальное число из чисел 10, 25, 5, 30, 15. Добавьте слушатель события на кнопку "Задание 21" и выведите результат на экран.
@@ -301,10 +311,11 @@ const buttonTwentyTwo = document.querySelector('.b-22');
 const resultTwentyTwo = document.querySelector('#resultTwentyTwo');
 
 const makeTwentyTwo = () => {
-	//Ваш код
+	const res = Math.min(10, 25, 5, 30, 15);
+	resultTwentyTwo.innerText = res;
 };
 
-//Добавьте слушатель события
+buttonTwentyTwo.addEventListener('click', makeTwentyTwo);//Cлушатель события
 
 //Задание 23
 //Выведите на экран результат возведения числа 2 в степень 5. Добавьте слушатель события на кнопку "Задание 23" и выведите результат на экран.
@@ -314,10 +325,11 @@ const buttonTwentyThree = document.querySelector('.b-23');
 const resultTwentyThree = document.querySelector('#resultTwentyThree');
 
 const makeTwentyThree = () => {
-	//Ваш код
+	const res = Math.pow(2,5);
+	resultTwentyThree.innerText = res;
 };
 
-//Добавьте слушатель события
+buttonTwentyThree.addEventListener('click', makeTwentyThree);//Cлушатель события
 
 //Задание 24
 //Выведите на экран наименьшее число из чисел 7, 3, 11, 5, 9. Добавьте слушатель события на кнопку "Задание 24" и выведите результат на экран.
@@ -326,10 +338,11 @@ const buttonTwentyFour = document.querySelector('.b-24');
 const resultTwentyFour = document.querySelector('#resultTwentyFour');
 
 const makeTwentyFour = () => {
-	//Ваш код
+	const res = Math.min(7, 3, 11, 5, 9);
+	resultTwentyFour.innerText = res;
 };
 
-//Добавьте слушатель события
+buttonTwentyFour.addEventListener('click', makeTwentyFour);//Cлушатель события
 
 //Задание 25
 //Выведите на экран наибольшее число из чисел 7, 3, 11, 5, 9. Добавьте слушатель события на кнопку "Задание 25" и выведите результат на экран.
@@ -338,10 +351,11 @@ const buttonTwentyFive = document.querySelector('.b-25');
 const resultTwentyFive = document.querySelector('#resultTwentyFive');
 
 const makeTwentyFive = () => {
-	//Ваш код
+	const res = Math.max(7, 3, 11, 5, 9);
+	resultTwentyFive.innerText = res;
 };
 
-//Добавьте слушатель события
+buttonTwentyFive.addEventListener('click', makeTwentyFive);//Cлушатель события
 
 //Задание 26
 //Выведите на экран случайное число от 0 до 1 с точностью до 4 знаков после запятой. Добавьте слушатель события на кнопку "Задание 26" и выведите результат на экран.
@@ -351,10 +365,11 @@ const buttonTwentySix = document.querySelector('.b-26');
 const resultTwentySix = document.querySelector('#resultTwentySix');
 
 const makeTwentySix = () => {
-	//Ваш код
+	const randNum = Math.random();
+	resultTwentySix.innerText = randNum.toFixed(4);
 };
 
-//Добавьте слушатель события
+buttonTwentySix.addEventListener('click', makeTwentySix);//Cлушатель события
 
 //Задание 27
 //Выведите на экран случайное целое число от 50 до 100. Добавьте слушатель события на кнопку "Задание 27" и выведите результат на экран.
@@ -363,10 +378,11 @@ const buttonTwentySeven = document.querySelector('.b-27');
 const resultTwentySeven = document.querySelector('#resultTwentySeven');
 
 const makeTwentySeven = () => {
-	//Ваш код
+	const randNum = Math.floor(Math.random() * (100 - 50 + 1)) + 50;
+	resultTwentySeven.innerText = randNum;
 };
 
-//Добавьте слушатель события
+buttonTwentySeven.addEventListener('click', makeTwentySeven);//Cлушатель события
 
 //Задание 28
 //Округлите число 4.47 в большую сторону с помощью метода Math.ceil(). Добавьте слушатель события на кнопку "Задание 28" и выведите результат на экран.
@@ -375,10 +391,11 @@ const buttonTwentyEight = document.querySelector('.b-28');
 const resultTwentyEight = document.querySelector('#resultTwentyEight');
 
 const makeTwentyEight = () => {
-	//Ваш код
+	const ceilNum = Math.ceil(4.47);
+	resultTwentyEight.innerText = ceilNum;
 };
 
-//Добавьте слушатель события
+buttonTwentyEight.addEventListener('click', makeTwentyEight);//Cлушатель события
 
 //Задание 29
 //Получите квадратный корень из числа 16 с помощью метода Math.sqrt(). Добавьте слушатель события на кнопку "Задание 29" и выведите результат на экран.
@@ -387,10 +404,11 @@ const buttonTwentyNine = document.querySelector('.b-29');
 const resultTwentyNine = document.querySelector('#resultTwentyNine');
 
 const makeTwentyNine = () => {
-	//Ваш код
+	const sqrtNum = Math.sqrt(16);
+	resultTwentyNine.innerText = sqrtNum;
 };
 
-//Добавьте слушатель события
+buttonTwentyNine.addEventListener('click', makeTwentyNine);//Cлушатель события
 
 //Задание 30
 //Получите квадратный корень из числа 25 с помощью метода Math.sqrt(). Добавьте слушатель события на кнопку "Задание 30" и выведите результат на экран.
@@ -399,13 +417,8 @@ const buttonThirty = document.querySelector('.b-30');
 const resultThirty = document.querySelector('#resultThirty');
 
 const makeThirty = () => {
-	//Ваш код
+	const sqrtNum = Math.sqrt(25);
+	resultThirty.innerText = sqrtNum;
 };
 
-//Добавьте слушатель события
-
-
-const text = "Пример текста для поиска буквы 'a'";
-const isLetterIncluded = text.includes('а');
-
-console.log(`Буква 'a' найдена в строке? ${isLetterIncluded}`); //Буква 'a' найдена в строке? true
+buttonThirty.addEventListener('click', makeThirty);//Cлушатель события
