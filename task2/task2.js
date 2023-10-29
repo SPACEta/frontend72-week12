@@ -23,20 +23,6 @@ const replacedText3 = result.replace(/клён/g, "дуб");
 const index = text.indexOf('моря');
 
 //9 Измените только первую букву в переменной `replacedText` на заглавную без использования регулярных выражений и сохраните результат в переменную `modifiedText`.
-/*const modifiedText = replacedText;
-// делим слово на отдельные буквы
-const splitted = modifiedText.split("")
-// делаем первую букву в массиве заглавной
-const first = splitted[0].toUpperCase()
-// копируем массив что бы
-// не модицицировать splitted напрямую
-// если вдрг он нам понадобиться далее
-const rest = [...splitted]
-// удаляем первую букву из массива
-rest.splice(0, 1)
-// соединияем все обратно в строку
-const result = [first, ...rest].join("")*/
-
 
 //извлечение первого символа из строки. В переменной firstChar теперь содержится первый символ строки — «л».
 let str = replacedText;
